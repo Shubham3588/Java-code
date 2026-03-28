@@ -29,12 +29,7 @@ build/
 out/
 
 # =========================
-# Eclipse
-# =========================
-.project
-.classpath
-.settings/
-bin/
+
 
 # =========================
 # VS Code
