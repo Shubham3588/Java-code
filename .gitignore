@@ -56,3 +56,4 @@ allure-report/
 config.properties
 *.key
 *.pem
+/bin/
