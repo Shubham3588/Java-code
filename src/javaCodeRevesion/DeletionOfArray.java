@@ -6,5 +6,9 @@ public class DeletionOfArray {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public static void seconLargestElement(int[] arr) {
+		
+	}
 
 }
