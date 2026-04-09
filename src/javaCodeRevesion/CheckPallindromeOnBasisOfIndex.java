@@ -3,7 +3,7 @@ package javaCodeRevesion;
 public class CheckPallindromeOnBasisOfIndex {
 
 	public static void main(String[] args) {
-		checkInput("madammhgfadeeada");
+		checkInput("madamm");
 	}
 
 	public static void checkPallindrome(String res) {
