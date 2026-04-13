@@ -3,24 +3,27 @@ package javaCodeRevesion;
 public class FindNonRepeatingCharacter {
 
 	public static void main(String[] args) {
-		String s = "shashanks";
-		
+		String s = "ajhfdjkhg";
+		getFirstRepeating(s);
+
+	}
+
+	public static void getFirstRepeating(String s) {
 		char[] ch = s.toCharArray();
-		for(int i=0;i<ch.length-1;i++) {
-			int count =0;
-			
-			for(int j=0;j<ch.length-1;j++) {
-				if(ch[i]==ch[j]) {
-					count++;
+
+		for (int i = 0; i < ch.length; i++) {
+			boolean isDuplicate = false;
+			for (int j = 0; j < ch.length; j++) {
+				if ((i != j) && ch[i] == ch[j]) {
+					isDuplicate = true;
+					break;
 				}
 			}
-			if(count<1) {
+			if (!isDuplicate) {
 				System.out.println(ch[i]);
 				break;
 			}
-			
 		}
-
 	}
 
 }
